@@ -155,9 +155,9 @@ const TrendingProducts = () => {
 
           {/* Products */}
           <div className="position-relative">
-            <button className="scroll-button left" onClick={handleScrollLeft}>
+             {/*<button className="scroll-button left" onClick={handleScrollLeft}>
               <IoIosArrowBack size={18} />
-            </button>
+            </button>*/}
             <div
               ref={scrollRef}
               className="product-scroll-container"
@@ -170,9 +170,9 @@ const TrendingProducts = () => {
                 </div>
               ))}
             </div>
-            <button className="scroll-button right" onClick={handleScrollRight}>
+            {/* <button className="scroll-button right" onClick={handleScrollRight}>
               <IoIosArrowForward size={18} />
-            </button>
+           </button>*/}
           </div>
         </div>
       </div>
