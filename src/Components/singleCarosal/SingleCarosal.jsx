@@ -9,7 +9,7 @@ import 'swiper/css/pagination';
 import singleCarosal1 from '../../Assets/single-carosal1.jpg';
 import singleCarosal2 from '../../Assets/single-carosal2.jpg';
 import singleCarosal3 from '../../Assets/single-carosal3.jpg';
-import './singleCarosal.css';
+import './SingleCarosal.css';
 
 const carouselData = [
   {
